@@ -1,4 +1,5 @@
 # cav
+[![npm version](https://badge.fury.io/js/cav.svg)](https://badge.fury.io/js/cav)
 
 A supporter for making your CLI.
 
