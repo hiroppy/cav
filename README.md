@@ -2,6 +2,12 @@
 
 A supporter for making your CLI.
 
+## Install
+```sh
+$ npm i -S cav
+```
+
+## Examples
 ```js
 #!/usr/bin/env node
 
