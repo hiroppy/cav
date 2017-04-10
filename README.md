@@ -36,7 +36,19 @@ $ sample-cli deploy japan prod -f -c ok
 ```
 ```js
 cav.start((args) => {
-  // { deploy: { to: 'japan', env: 'prod' }, f: true, c: 'ok' }
+  console.log(JSON.stringify(args, null, 2));
+  //  {
+  //    "commands": {
+  //      "deploy": {
+  //        "to": "japan",
+  //        "env": "prod"
+  //      }
+  //    },
+  //    "options": {
+  //      "f": true,
+  //      "c": "ok"
+  //    }
+  //  }
 });
 ```
 
