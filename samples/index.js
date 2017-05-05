@@ -17,5 +17,3 @@ const cav = new Cav(commands, packageJson);
 cav.start((args) => {
   console.log(JSON.stringify(args, null, 2));
 });
-
-console.log(cav.help());
